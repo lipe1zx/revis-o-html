@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife Academy | Transforme sua rotina agora</title>
+</head>
+<body>
+
+    <header>
+        <h1>FitLife Academy</h1>
+        <nav>
+            <ul>
+                <li><a href="">Modalidades</a></li>
+                <li><a href="">Horários</a></li>
+                <li><a href="">Matrícula</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="modalidades">
+            <h2>Modalidades</h2>
+            <p>Descubra a atividade perfeita para o seu perfil e comece a treinar com os melhores profissionais.</p>
+            
+            <ul>
+                <li>
+                    Musculação - Treinos personalizados para hipertrofia e força.
+                    <br>
+                    <img src="" alt="Pessoa levantando pesos em uma academia moderna.">
+                </li>
+                <li>
+                    CrossFit - Desafie seus limites com treinos de alta intensidade.
+                    <br>
+                    <img src="" alt="Grupo realizando exercícios funcionais com cordas navais.">
+                </li>
+                <li>
+                    Yoga - Equilíbrio entre corpo e mente com foco em flexibilidade.
+                    <br>
+                    <img src="" alt="Praticante de yoga realizando a posição de lótus.">
+                </li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="horarios">
+            <h2>Horários da Semana</h2>
+            <table border="3">
+                <thead>
+                    <tr>
+             <th>Horário</th>
+            <th>Segunda</th>
+            <th>Quarta</th>
+            <th>Sexta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+     <td>07:00</td>
+                        <td>CrossFit</td>
+                        <td>CrossFit</td>
+                        <td>CrossFit</td>
+                    </tr>
+                    <tr>
+                        <td>10:00</td>
+                        <td>Yoga</td>
+                        <td>Pilates</td>
+                        <td>Yoga</td>
+                    </tr>
+                    <tr>
+                        <td>18:00</td>
+                        <td>Musculação</td>
+                        <td>Musculação</td>
+                        <td>Musculação</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4"><em>*Sujeito a lotação máxima.</em></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="matricula">
+            <h2>Pré-Matrícula</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="exemplo@email.com">
+                </div>
+
+                <div>
+                    <label for="nascimento">Data de Nascimento:</label>
+                    <input type="date" id="nascimento" name="nascimento">
+                </div>
+
+                <div>
+                    <label for="plano">Plano de Interesse:</label>
+                    <select id="plano" name="plano">
+                        <option value="mensal">Mensal</option>
+                        <option value="trimestral">Trimestral</option>
+                        <option value="anual">Anual</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="objetivo">Descreva seus objetivos:</label><br>
+                    <textarea id="objetivo" name="objetivo" rows="4" cols="30" placeholder="Ex: Perda de peso, ganho de massa..."></textarea>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="termos" name="termos" required>
+                    <label for="termos">Li e aceito as regras</label>
+                </div>
+
+                <div>
+                    <button type="reset">Limpar</button>
+                    <button type="submit">Enviar Matrícula</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer id="contato">
+        <p>&copy; 2026 FitLife Academy - Todos os direitos reservados.</p>
+        
+        <nav>
+            <ul>
+                <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+                <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+            </ul>
+        </nav>
+
+        <p>Fale conosco: <a href="mailto:contato@fitlifeacademy.com">contato@fitlifeacademy.com</a></p>
+    </footer>
+
+</body>
+</html>
